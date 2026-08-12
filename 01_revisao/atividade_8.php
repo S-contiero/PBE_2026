@@ -1,8 +1,8 @@
 <?php
 
-$numero1 = 20;
+$numero1 = 15;
 $numero2 = 5;
-$operacao = "/";
+$operacao = "+";
 
 switch ($operacao) {
 
@@ -19,15 +19,8 @@ switch ($operacao) {
         break;
 
     case "/":
-        if ($numero2 == 0) {
-            echo "Erro: divisão por zero.";
-        } else {
-            echo $numero1 / $numero2;
-        }
+        echo $numero1 / $numero2;
         break;
-
-    default:
-        echo "Operação inválida.";
 }
 
 ?>
