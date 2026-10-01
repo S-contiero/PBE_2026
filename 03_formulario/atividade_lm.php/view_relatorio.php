@@ -11,10 +11,10 @@
 
     <h2>Registro</h2>
 
-        <p><b>Nome:</b> <?= $nome ?></p>
-        <p><b>Tipo de Ingresso:</b> <?= $tipo_ingresso ?></p>
-        <p><b>Data do Evento:</b> <?= $data_evento ?></p>
-        <p><b>Hora da Chegada:</b> <?= $hora_chegada ?></p>
+        <li><?Nome:</b> <?= $nome ?></li>
+        <li><?Tipo de Ingresso:</b> <?= $tipo_ingresso ?></li>
+        <li><?Data do Evento:</b> <?= $data_evento ?></li>
+        <li><?Hora da Chegada:</b> <?= $hora_chegada ?></li>
 
 
 </body>
